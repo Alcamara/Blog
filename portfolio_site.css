@@ -1,4 +1,23 @@
+
+/*background color of navbar and footer*/
 nav, footer {
-  background-color: rgb(13, 5, 154);
-  color: rgb(209, 105, 47);
+  background-color:rgb(209, 105, 47);
+  /*color:  ;*/
+}
+
+header {
+  height: 300px;
+
+}
+
+.container {
+   display: grid;
+   grid-template-columns: auto 300px;
+}
+
+#social-media {
+  height: 300px;
+  border: 3px solid rgb(209, 105, 47);
+  border-radius: 10px;
+  padding: 8px;
 }
